@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Garima- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(1, 32, 33);
+        color: peachpuff;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(6, 49, 50);
+      }
+
+      nav ul{
+        display: flex;
+        justify-content: center;
+      }
+        
+      nav ul li{
+        list-style:none;
+        margin: 0 23px;
+      }
+
+      nav ul li a{
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover{
+        color: rgb(131, 206, 206);
+        font-size: 1.04rem;
+      }
+
+      main hr{
+        border: 0;
+        height: 1.2px;
+        background-color: antiquewhite;
+        margin: 40px 84px;
+      }
+
+      .left{
+        font-size: 1.5rem;
+      }
+
+      .firstsection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 160px 0;
+
+      }
+       
+      .firstsection > div{
+         width: 30%;
+      }
+
+      .leftsection{
+        font-size: 2.27rem;
+      }
+      
+      .leftsection .button{
+        padding: 50px 0;
+      }
+      
+      .leftsection .btn {
+        padding: 12px;
+        background-color: rgb(6, 49, 50);
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .rightsection img{
+        width: 100%;
+      }
+
+      .purple{
+        color: rgb(18, 177, 177);
+      }
+
+      .text-gray{
+        color: gray;
+      }
+
+      #element{
+        color: rgb(18, 177, 177);
+      }
+
+      .secondsection{
+        max-width: 80vw;
+        margin: auto;
+        height: 65vh;
+      }
+
+      .secondsection h1{
+        font-size: 1.9rem;
+      }
+
+      .secondsection .box{
+        background:white;
+        width: 58vw;
+        height: 2px;
+        margin: 60px 133px;
+        display: flex;
+      }
+
+      .secondsection .vertical{
+        height: 90px;
+        width: 1px;
+        background: white;
+        margin: 0 136px;
+      }
+
+      .image-top{
+        width: 25px;
+        position: relative;
+        top: -27px;
+        left: -12px;
+      }
+
+      .vertical-tittle{
+        position: relative;
+        top: 75px;
+        width: 150px;
+      }
+
+      .vertical-desc{
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+
+      footer{
+        background-color: rgb(5, 56, 56);
+        
+      }
+
+      .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+
+      .footer ul{
+        list-style: none;
+        font-size: 17px;
+        margin: 14px 0;
+      }
+
+      .footer > div{
+        width: 233px;
+      }
+
+      footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Garima's PORTFOLIO</div>
+        <div class="right">
+            <ul>
+               <li><a href="/">Home</a></li>
+               <li><a href="/">About</a></li>
+               <li><a href="/">Contact Me</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello! It's Me
+              <div><span class="purple">Garima Sahu</span>
+                </div>
+                <div>and I am a passoinate</div>
+                 <span id="element"></span>
+                 <div class="button"></div>
+                 <button class="btn">Visit github</button>
+                 <button class="btn">Visit Linkldin</button>
+                       
+                 </div>
+            </div>
+            <div class="rightsection">
+        <img src="bg.png.png" alt="">
+            </div>
+        </section>
+   <hr>   
+   <section class="secondsection">
+    <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1> 
+        <div class="box">
+          <div class="vertical">
+
+            <img class="image-top" src="developer.png" alt="">
+            <div class="vertical-tittle">
+              HTML developer
+            </div>
+            <div class="vertical-desc">
+              I would like to acknowledge the successful completion of the HTML and 
+              CSS programming task.The skills have greatly contributed to the project's
+              success.
+            </div>
+          </div>
+            <div class="vertical">
+
+              <img class="image-top" src="weather.png" alt="">
+              <div class="vertical-tittle">
+                WEATHER Website
+              </div>
+              <div class="vertical-desc">
+                I would like to acknowledge the successful completion of the HTML and 
+                CSS programming task.Build a website using  HTML,jsand 
+                CSS that fetches wedsite data from an API and displays the current weather
+                conditions.
+              </div>
+            </div>  
+              <div class="vertical">
+
+                <img class="image-top" src="netflix.png" alt="">
+                <div class="vertical-tittle">
+                  NETFLIX Website
+                </div>
+                <div class="vertical-desc">
+                  I would like to acknowledge the successful completion of the HTML and 
+                  CSS programming task.completed my netflix website which enhanced my learning skills
+                  also thanks to BHARAT INTERN for shovering skills.
+                </div>
+              </div>    
+          </div>
+        </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h2> Garima's Portfolio Developer</h2>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Projects</li>
+            <li>Skill</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Contact Me</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright	&#169; garimasportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer.','Graphics designer.','Web Designer.'],
+      typeSpeed: 60,
+    });
+  </script>
+    
+  </body>
+</html>
